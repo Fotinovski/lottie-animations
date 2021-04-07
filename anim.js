@@ -4,7 +4,7 @@ var animation = bodymovin.loadAnimation({
     loop: false,
     autoplay: false,
     // path: 'https://assets7.lottiefiles.com/packages/lf20_qievcjy1.json',
-    path: 'https://assets2.lottiefiles.com/packages/lf20_A44snG.json',
+    path: './animations/one.json',
   })
 
   const btn = document.querySelector('.click')
@@ -61,7 +61,7 @@ var state = 'play';
   
 
   btn2.addEventListener('click', ()=>{
-    animation2.goToAndPlay(14, true)
+    animation2.goToAndPlay(0, true)
    
   } )
   /************ */
@@ -70,14 +70,14 @@ var state = 'play';
     renderer: 'svg',
     loop: false,
     autoplay: false,
-    path: 'https://assets1.lottiefiles.com/packages/lf20_ZKUJ2j.json',
+    path: 'https://assets7.lottiefiles.com/datafiles/DYSJrjDDW4wj0wwvpnnOgcH9WvBwfDnIZh39QjOq/Love/data.json',
   })
 
   const btn3 = document.querySelector('.click3')
   
 
   btn3.addEventListener('click', ()=>{
-    animation3.goToAndPlay([14,30], true)
+    animation3.goToAndPlay(0, true)
    
   } )
 
@@ -94,7 +94,7 @@ var state = 'play';
   
 
   btn4.addEventListener('click', ()=>{
-    animation4.goToAndPlay(14, true)
+    animation4.goToAndPlay(0, true)
    
   } )
 
@@ -103,7 +103,7 @@ var state = 'play';
   var anim = bodymovin.loadAnimation({
     container: document.getElementById('s1'),
     renderer: 'svg',
-    loop: false,
+    loop: true,
     autoplay: true,
-    path: 'https://assets5.lottiefiles.com/packages/lf20_rxt8zwo2.json',
+    path: 'https://assets8.lottiefiles.com/datafiles/jxViwNxwcfAfVFO/data.json',
   })
