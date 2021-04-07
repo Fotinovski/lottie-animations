@@ -1,53 +1,53 @@
-h6{
-    font-size: $headerFontSize;
-}
-h5{
-    font-size: $headerFontSize * $headingScale;
-}
-h4{
-    font-size: $headerFontSize * $headingScale * $headingScale;
-}
-h3{
-    font-size: $headerFontSize * $headingScale* $headingScale* $headingScale;
-}
-h2{
-    font-size: $headerFontSize * $headingScale* $headingScale* $headingScale* $headingScale;
-}
-h1{
-    font-size: $headerFontSize * $headingScale* $headingScale* $headingScale* $headingScale* $headingScale;
-}
+// h6{
+//     font-size: $headerFontSize;
+// }
+// h5{
+//     font-size: $headerFontSize * $headingScale;
+// }
+// h4{
+//     font-size: $headerFontSize * $headingScale * $headingScale;
+// }
+// h3{
+//     font-size: $headerFontSize * $headingScale* $headingScale* $headingScale;
+// }
+// h2{
+//     font-size: $headerFontSize * $headingScale* $headingScale* $headingScale* $headingScale;
+// }
+// h1{
+//     font-size: $headerFontSize * $headingScale* $headingScale* $headingScale* $headingScale* $headingScale;
+// }
 
-p{
-    font-size: $headerFontSize - $pScale;
-    line-height: ($headerFontSize - $pScale) * $pLineHeightScale;
-    opacity: 0.85;
-}
+// p{
+//     font-size: $headerFontSize - $pScale;
+//     line-height: ($headerFontSize - $pScale) * $pLineHeightScale;
+//     opacity: 0.85;
+// }
 
-// **************************************************
+// // **************************************************
 
-@include tablet {
-    h6{
-        font-size: $mqHeaderFontSize;
-    }
-    h5{
-        font-size: $mqHeaderFontSize * $mqHeadingScale;
-    }
-    h4{
-        font-size: $mqHeaderFontSize * $mqHeadingScale * $mqHeadingScale;
-    }
-    h3{
-        font-size: $mqHeaderFontSize * $mqHeadingScale* $mqHeadingScale* $mqHeadingScale;
-    }
-    h2{
-        font-size: $mqHeaderFontSize * $mqHeadingScale* $mqHeadingScale* $mqHeadingScale* $mqHeadingScale;
-    }
-    h1{
-        font-size: $mqHeaderFontSize * $mqHeadingScale* $mqHeadingScale* $mqHeadingScale* $mqHeadingScale* $mqHeadingScale;
-    }
+// @include tablet {
+//     h6{
+//         font-size: $mqHeaderFontSize;
+//     }
+//     h5{
+//         font-size: $mqHeaderFontSize * $mqHeadingScale;
+//     }
+//     h4{
+//         font-size: $mqHeaderFontSize * $mqHeadingScale * $mqHeadingScale;
+//     }
+//     h3{
+//         font-size: $mqHeaderFontSize * $mqHeadingScale* $mqHeadingScale* $mqHeadingScale;
+//     }
+//     h2{
+//         font-size: $mqHeaderFontSize * $mqHeadingScale* $mqHeadingScale* $mqHeadingScale* $mqHeadingScale;
+//     }
+//     h1{
+//         font-size: $mqHeaderFontSize * $mqHeadingScale* $mqHeadingScale* $mqHeadingScale* $mqHeadingScale* $mqHeadingScale;
+//     }
     
-    p{
-        font-size: $mqHeaderFontSize - $pScale;
-        line-height: ($mqHeaderFontSize - $pScale) * $pLineHeightScale;
-        opacity: 0.85;
-    }
-}
+//     p{
+//         font-size: $mqHeaderFontSize - $pScale;
+//         line-height: ($mqHeaderFontSize - $pScale) * $pLineHeightScale;
+//         opacity: 0.85;
+//     }
+// }

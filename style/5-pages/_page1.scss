@@ -1,21 +1,32 @@
 #page1 {
-    height: $height;
-    width: $width;
-    // background-color:#6070FC;
-    background-color:#fff;
-    position: relative;
-}
+  height: $height;
+  width: $width;
+  // background-color:#6070FC;
+  //   background-color: #fff;
+  // background: radial-gradient(#e66465, #9198e5);
+  //   background: radial-gradient(#fff, #D94546);
+  background: radial-gradient(#fff, #dfdddd);
+  position: relative;
+  #logo {
+    // margin-left: 25%;
+    // height: 100%;
+    // width: 100%;
+    // position: absolute;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include tablet {
+        flex-direction: column;
+      }
+    div {
+      width: 50%;
 
-#s1{
-    // margin-top: 25%;
-    // height: 75%;
-    height: 100%;
-     width: 100%;
-    position: absolute;
-}
-
-#s-bg{
-    height: 100%;
-    width: 100%;
-   position: absolute;
+      @include tablet {
+        width: 100%;
+      }
+    }
+    
+  }
 }

@@ -22,47 +22,6 @@ body {
   margin: 0 auto;
   padding: 0 20px; }
 
-h6 {
-  font-size: 20px; }
-
-h5 {
-  font-size: 26.66px; }
-
-h4 {
-  font-size: 35.53778px; }
-
-h3 {
-  font-size: 47.37186px; }
-
-h2 {
-  font-size: 63.14669px; }
-
-h1 {
-  font-size: 84.17454px; }
-
-p {
-  font-size: 15px;
-  line-height: 21px;
-  opacity: 0.85; }
-
-@media (max-width: 900px) {
-  h6 {
-    font-size: 17px; }
-  h5 {
-    font-size: 21.25px; }
-  h4 {
-    font-size: 26.5625px; }
-  h3 {
-    font-size: 33.20312px; }
-  h2 {
-    font-size: 41.50391px; }
-  h1 {
-    font-size: 51.87988px; }
-  p {
-    font-size: 12px;
-    line-height: 16.8px;
-    opacity: 0.85; } }
-
 .navbar {
   background: rgba(245, 245, 245, 0.7);
   width: 100%;
@@ -135,18 +94,29 @@ p {
 #page1 {
   height: 100vh;
   width: 100vw;
-  background-color: #fff;
+  background: radial-gradient(#fff, #dfdddd);
   position: relative; }
-
-#s1 {
-  height: 100%;
-  width: 100%;
-  position: absolute; }
-
-#s-bg {
-  height: 100%;
-  width: 100%;
-  position: absolute; }
+  #page1 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media (max-width: 900px) {
+      #page1 .container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; } }
+    #page1 .container div {
+      width: 50%; }
+      @media (max-width: 900px) {
+        #page1 .container div {
+          width: 100%; } }
 
 #page2 {
   height: 100vh;
@@ -163,7 +133,19 @@ p {
   width: 100vw;
   background-color: #8149ca; }
 
-#page5 {
+#page1 {
   height: 100vh;
   width: 100vw;
-  background-color: #8149ca; }
+  background-color: #fff;
+  background: radial-gradient(#fff, #dfdddd);
+  position: relative; }
+
+#s1 {
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+#s-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute; }
