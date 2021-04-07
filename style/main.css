@@ -133,7 +133,7 @@ p {
         padding: 10px; } }
 
 #page1 {
-  height: 100vh;
+  height: calc(100vh - 75px);
   width: 100vw;
   background-color: #fff;
   position: relative; }

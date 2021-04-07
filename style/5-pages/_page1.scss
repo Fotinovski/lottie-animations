@@ -1,5 +1,6 @@
 #page1 {
-    height: $height;
+    height: calc(100vh - 75px);
+    // height: $height;
     width: $width;
     // background-color:#6070FC;
     background-color:#fff;
