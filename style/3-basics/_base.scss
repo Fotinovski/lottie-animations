@@ -1,0 +1,17 @@
+// ***GENERAL***
+body {
+    font-family: $mainFont;
+    overflow: hidden;
+    // background: linear-gradient(210deg, rgba(lighten($primary, 5%), 1) 0%, rgba(darken($primary, 15%), 1) 100%);
+
+    // height: 100vh;//sega za sega neka stoi vaka
+}
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'); // FONT AWESOME ICONS
+
+.container {
+    max-width: 1366px;  // 1366x768 || 1920x1080 >Laptop
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}

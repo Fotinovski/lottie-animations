@@ -1,0 +1,23 @@
+// 1-helpers
+@import './1-helpers/mixins';
+@import './1-helpers/variables';
+
+//2-tools
+@import './2-tools/resets';
+
+//3-basics
+@import './3-basics/base';
+@import './3-basics/buttons';
+@import './3-basics/typography';
+
+//4-components
+@import './4-components/nav-bar';
+
+//5-pages
+@import './5-pages/page1';
+@import './5-pages/page2';
+@import './5-pages/page3';
+@import './5-pages/page4';
+@import './5-pages/page5';
+
+
