@@ -22,50 +22,6 @@ body {
   margin: 0 auto;
   padding: 0 20px; }
 
-.btn {
-  padding: 25px 20px 10px 10px;
-  border-radius: 5px;
-  background-color: #F5F5F5;
-  color: #1E1E1E;
-  border: 2px solid #1E1E1E;
-  letter-spacing: 0.5px;
-  -webkit-transition: background-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out;
-  font-weight: bold;
-  text-transform: uppercase; }
-  .btn:hover {
-    background-color: #1E1E1E;
-    color: #F5F5F5; }
-
-.send_msn-btn {
-  padding: 15px 30px;
-  background-color: #F5F5F5;
-  color: #1E1E1E; }
-
-@media (max-width: 900px) {
-  .btn {
-    padding: 0px 15px 0 0px;
-    border-radius: 5px;
-    background-color: #F5F5F5;
-    color: #1E1E1E;
-    border: 2px solid #1E1E1E;
-    letter-spacing: 0.5px;
-    -webkit-transition: background-color 0.2s ease-in-out;
-    transition: background-color 0.2s ease-in-out;
-    font-weight: bold;
-    text-transform: uppercase; }
-    .btn:hover {
-      background-color: #1E1E1E;
-      color: #F5F5F5; }
-  .send_msn-btn {
-    font-size: 14px;
-    padding: 10px 20px 6px; } }
-
-@media (max-width: 357px) {
-  .send_msn-btn {
-    font-size: 12px;
-    padding: 8px 15px 5px; } }
-
 h6 {
   font-size: 20px; }
 
@@ -179,10 +135,18 @@ p {
 #page1 {
   height: 100vh;
   width: 100vw;
-  background-color: #fff; }
+  background-color: #fff;
+  position: relative; }
 
 #s1 {
-  height: 100%; }
+  height: 100%;
+  width: 100%;
+  position: absolute; }
+
+#s-bg {
+  height: 100%;
+  width: 100%;
+  position: absolute; }
 
 #page2 {
   height: 100vh;

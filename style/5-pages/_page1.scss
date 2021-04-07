@@ -3,8 +3,19 @@
     width: $width;
     // background-color:#6070FC;
     background-color:#fff;
+    position: relative;
 }
 
 #s1{
+    // margin-top: 25%;
+    // height: 75%;
     height: 100%;
+     width: 100%;
+    position: absolute;
+}
+
+#s-bg{
+    height: 100%;
+    width: 100%;
+   position: absolute;
 }

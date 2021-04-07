@@ -107,3 +107,10 @@ var state = 'play';
     autoplay: true,
     path: 'https://assets8.lottiefiles.com/datafiles/jxViwNxwcfAfVFO/data.json',
   })
+  var animbg = bodymovin.loadAnimation({
+    container: document.getElementById('s-bg'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: 'https://assets3.lottiefiles.com/packages/lf20_gduz3izv.json',
+  })
