@@ -13,18 +13,17 @@ var state = "play";
 btn.addEventListener("click", () => {
   animation.goToAndPlay(60, true);
 
-addEventListener('click', () => {
-  //   if(state === 'play') {
-
-  //    animation.playSegments([124, 0], true);
-  //     state = 'pause';
-  //   } else {
-  //     animation.playSegments([0, 124], true);
-  //     state = 'play';
-  //   }
-  // });
+  addEventListener("click", () => {
+    //   if(state === 'play') {
+    //    animation.playSegments([124, 0], true);
+    //     state = 'pause';
+    //   } else {
+    //     animation.playSegments([0, 124], true);
+    //     state = 'play';
+    //   }
+    // });
+  });
 });
-})
 
 // bm.
 // bm.addEventListener("mouseenter", function() {
@@ -110,6 +109,14 @@ var flamingo = bodymovin.loadAnimation({
   autoplay: true,
   path: "./animations/flamingo.json",
 });
+const s1 = document.querySelector(".s1");
+s1.addEventListener("mouseenter", () => {
+  flamingo.setSpeed(0.3);
+});
+s1.addEventListener("mouseleave", () => {
+  flamingo.setSpeed(1);
+});
+
 var bubble = bodymovin.loadAnimation({
   container: document.getElementById("s-bg"),
   renderer: "svg",
@@ -124,58 +131,58 @@ btn.addEventListener("mouseenter", () => {
   animation.setDirection(1);
   // animation4.play();
   animation.goToAndPlay(0, true);
-  animation.setSpeed(2)
+  animation.setSpeed(2);
 });
 btn.addEventListener("mouseleave", () => {
   animation.setDirection(-1);
   animation.play();
-  animation.setSpeed(1)
+  animation.setSpeed(1);
 });
 /*1*/
 btn1.addEventListener("mouseenter", () => {
   animation1.setDirection(1);
   // animation4.play();
   animation1.goToAndPlay(0, true);
-  animation1.setSpeed(2)
+  animation1.setSpeed(2);
 });
 btn1.addEventListener("mouseleave", () => {
   animation1.setDirection(-1);
   animation1.play();
-  animation1.setSpeed(1)
+  animation1.setSpeed(1);
 });
 /*2*/
 btn2.addEventListener("mouseenter", () => {
   animation2.setDirection(1);
   // animation4.play();
   animation2.goToAndPlay(0, true);
-  animation2.setSpeed(2)
+  animation2.setSpeed(2);
 });
 btn2.addEventListener("mouseleave", () => {
   animation2.setDirection(-1);
   animation2.play();
-  animation2.setSpeed(1)
+  animation2.setSpeed(1);
 });
 /*3*/
 btn3.addEventListener("mouseenter", () => {
   animation3.setDirection(1);
   // animation4.play();
   animation3.goToAndPlay(0, true);
-  animation3.setSpeed(2)
+  animation3.setSpeed(2);
 });
 btn3.addEventListener("mouseleave", () => {
   animation3.setDirection(-1);
   animation3.play();
-  animation3.setSpeed(1)
+  animation3.setSpeed(1);
 });
 /*3*/
 btn4.addEventListener("mouseenter", () => {
   animation4.setDirection(1);
   // animation4.play();
   animation4.goToAndPlay(0, true);
-  animation4.setSpeed(2)
+  animation4.setSpeed(2);
 });
 btn4.addEventListener("mouseleave", () => {
   animation4.setDirection(-1);
   animation4.play();
-  animation4.setSpeed(1)
+  animation4.setSpeed(1);
 });
