@@ -68,8 +68,9 @@ var animation3 = bodymovin.loadAnimation({
   renderer: "svg",
   loop: false,
   autoplay: false,
-  path:
-    "https://assets7.lottiefiles.com/datafiles/DYSJrjDDW4wj0wwvpnnOgcH9WvBwfDnIZh39QjOq/Love/data.json",
+  // path:
+  //   "https://assets7.lottiefiles.com/datafiles/DYSJrjDDW4wj0wwvpnnOgcH9WvBwfDnIZh39QjOq/Love/data.json",
+  path:'./animations/settings.json'
 });
 
 const btn3 = document.querySelector(".click3");
@@ -170,11 +171,11 @@ btn3.addEventListener("mouseenter", () => {
   animation3.goToAndPlay(0, true);
   animation3.setSpeed(2);
 });
-btn3.addEventListener("mouseleave", () => {
-  animation3.setDirection(-1);
-  animation3.play();
-  animation3.setSpeed(1);
-});
+// btn3.addEventListener("mouseleave", () => {
+//   animation3.setDirection(-1);
+//   animation3.play();
+//   animation3.setSpeed(1);
+// });
 /*3*/
 btn4.addEventListener("mouseenter", () => {
   animation4.setDirection(1);
