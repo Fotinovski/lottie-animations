@@ -84,7 +84,8 @@ var animation4 = bodymovin.loadAnimation({
   renderer: "svg",
   loop: false,
   autoplay: false,
-  path: "https://assets3.lottiefiles.com/packages/lf20_WILIKk.json",
+  // path: "https://assets3.lottiefiles.com/packages/lf20_WILIKk.json",
+  path: "./animations/share-icon.json",
 });
 
 const btn4 = document.querySelector(".click4");
@@ -179,10 +180,10 @@ btn4.addEventListener("mouseenter", () => {
   animation4.setDirection(1);
   // animation4.play();
   animation4.goToAndPlay(0, true);
-  animation4.setSpeed(2);
-});
-btn4.addEventListener("mouseleave", () => {
-  animation4.setDirection(-1);
-  animation4.play();
   animation4.setSpeed(1);
 });
+// btn4.addEventListener("mouseleave", () => {
+//   animation4.setDirection(-1);
+//   animation4.play();
+//   animation4.setSpeed(1);
+// });
